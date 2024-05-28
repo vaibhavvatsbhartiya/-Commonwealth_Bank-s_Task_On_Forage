@@ -1,0 +1,111 @@
+* {
+    font-family: 'Gill Sans', 'Lucida Sans', sans-serif;
+}
+
+:root{
+    --Primary_yellow: #FFCC00;
+    --Beacon_yellow:  #FFFF00;
+    --Gray: #BEBEB9;
+    --Light_gray: #EBEBEB;
+    --black: #1E1E1E;
+    --white: #FFFFFF;
+}
+
+h1 {
+    color: blue;
+    font-size: 60pt;
+}
+
+
+
+p {
+    font-size: 18px;
+    color: black;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+#itlaic {
+    color: black;
+}
+
+
+/* Section and text styling */
+section {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px 0;
+}
+
+h2 {
+    color: #76c7f2;
+    font-size: 38pt;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 44px;
+    }
+    h2{
+        font-size: 26px;
+    }
+}
+/* *********************** dark mode *********************** */
+
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark-mode header {
+    background-color: #1c1c1c;
+}
+
+/* Button styling */
+#toggleDarkMode {
+    background: #0073e6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#toggleDarkMode:hover {
+    background: #005bb5;
+}
+
+/* Dark mode button styling */
+body.dark-mode #toggleDarkMode {
+    background: #333;
+    color: #e0e0e0;
+}
+
+#toggleDarkMode.dark-mode:hover {
+    background: #555;
+}
+
+/* Dark mode section styling */
+body.dark-mode section {
+    background-color: #1e1e1e;
+}
+
+/* Dark mode headings styling */
+
+body.dark-mode h1 {
+    color: var(--Primary_yellow);
+}
+
+body.dark-mode h2 {
+    color: var(--Beacon_yellow);
+}
+
+body.dark-mode p {
+    color: white;
+}
+
+body.dark-mode #itlaic {
+    color: white;
+}

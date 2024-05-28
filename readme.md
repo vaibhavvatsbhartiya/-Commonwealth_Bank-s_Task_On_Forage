@@ -1,0 +1,14 @@
+# Commonwealth Bank's Introduction to Software Engineering Job Simulation
+
+
+### By analyzing the articles I consider some important security tools to look for in a web hosting service.
+1. **SSL:** Secure Socket Layer (SSL) are the cryptographic protocols that encrypt data between applications, servers and machine within the network. This helps us in losing sensitive data to third parties.
+2. **Secure File Transfer Protocol:** Secure FTP encrypts the data we are transferring with more security.
+3. **Web Application Firewalls:** Web applications are safeguarded by a web application firewall, which filters, monitors, and stops dangerous web traffic intended to collect information about the site's owner or users. Before any web traffic reaches the server that hosts your website, it must first pass through a WAF. The WAF filters suspicious web traffic that tries to access the server. Additionally, these firewalls have the ability to stop illegal data from exiting the web application. They serve as barriers between users and web services, ensuring that nothing harmful enters and nothing crucial leaves.
+4. **DDoS:** Web hosting companies that have implemented DDoS (Distributed denial of service protection) defenses are able to identify and stop attacks of this kind, which resemble firehoses. Although a WAF can assist in identifying and reducing DDoS attacks, it frequently isn't sufficient to stop an attack. An intrusion-prevention system is one instrument that can aid in stopping a DDoS attack. These network security technologies report, stop, and remove any harmful online traffic behavior they come across.
+5. **Site Data Backups:** Disaster recovery includes backups, which are your last line of defense in the event that your website is hijacked, compromised, or destroyed. Using a backup, you can bring your website back to its previous splendor. You have two options for backing up your data: either manually or automatically, with the ability to plan when the backup occurs.
+6. **Password Encryption:** While interaction with database or creating new accounts we always use to save all sensitive information like password, phone number or email in hash form. Thus, in this way if our data is somewhat leaked the third party is unable to use that information without the secret key.
+7. **Enable Two-Factor Authentication:** Add an extra layer of security by enabling 2FA for your financial accounts. This typically requires a second form of verification, such as a code sent to your phone, in addition to your password.
+8. **keep Our Software Updated:** Regularly update your operating system, browser, and any financial apps to protect against the latest security vulnerabilities. Software updates often include patches for security flaws that could be exploited by cybercriminals.
+
+Therse are the some techniques or rules which we have to follow in order to create a great and secure website which is hosted.
